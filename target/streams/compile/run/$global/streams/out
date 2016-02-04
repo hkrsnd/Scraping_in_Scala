@@ -1,0 +1,26 @@
+[0m[[0minfo[0m] [0mRunning Main [0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-1e to terminate.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	/home/shindo/Scraping_in_Scala/target/scala-2.10/classes[0m
+[0m[[0mdebug[0m] [0m	/home/shindo/.sbt/boot/scala-2.10.5/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	/home/shindo/.ivy2/cache/org.jsoup/jsoup/jars/jsoup-1.7.3.jar[0m
+[0m[[0mdebug[0m] [0m	/home/shindo/.ivy2/cache/com.flyberrycapital/scala-slack_2.10/jars/scala-slack_2.10-0.3.0.jar[0m
+[0m[[0mdebug[0m] [0m	/home/shindo/.ivy2/cache/com.typesafe.play/play-json_2.10/jars/play-json_2.10-2.4.0-M1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/shindo/.ivy2/cache/com.typesafe.play/play-iteratees_2.10/jars/play-iteratees_2.10-2.4.0-M1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/shindo/.ivy2/cache/org.scala-stm/scala-stm_2.10/jars/scala-stm_2.10-0.7.jar[0m
+[0m[[0mdebug[0m] [0m	/home/shindo/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/shindo/.ivy2/cache/com.typesafe.play/play-functional_2.10/jars/play-functional_2.10-2.4.0-M1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/shindo/.ivy2/cache/com.typesafe.play/play-datacommons_2.10/jars/play-datacommons_2.10-2.4.0-M1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/shindo/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.3.jar[0m
+[0m[[0mdebug[0m] [0m	/home/shindo/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.6.jar[0m
+[0m[[0mdebug[0m] [0m	/home/shindo/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.4.jar[0m
+[0m[[0mdebug[0m] [0m	/home/shindo/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.3.2.jar[0m
+[0m[[0mdebug[0m] [0m	/home/shindo/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.3.2.jar[0m
+[0m[[0mdebug[0m] [0m	/home/shindo/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.3.2.jar[0m
+[0m[[0mdebug[0m] [0m	/home/shindo/.ivy2/cache/org.scalaj/scalaj-http_2.10/jars/scalaj-http_2.10-1.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-1e exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[Keep-Alive-Timer,8,system][0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+[0m[[0mdebug[0m] [0mExited with code 0[0m

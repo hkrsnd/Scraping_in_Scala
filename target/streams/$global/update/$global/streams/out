@@ -1,0 +1,1109 @@
+[0m[[0minfo[0m] [0mUpdating {file:/home/shindo/Scraping_in_Scala/}scraping_in_scala...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: scalascraping1#scalascraping1_2.10;0.0.1[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48cebc68[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.5[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.5] org.scala-lang#scala-library;2.10.5[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.jsoup#jsoup;1.7.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.jsoup#jsoup;1.7.3 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.jsoup#jsoup;1.7.3[0m
+[0m[[0mdebug[0m] [0m	found org.jsoup#jsoup;1.7.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.flyberrycapital#scala-slack_2.10;0.3.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.flyberrycapital#scala-slack_2.10;0.3.0 {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.flyberrycapital#scala-slack_2.10;0.3.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.flyberrycapital#scala-slack_2.10;0.3.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/shindo/.ivy2/local/com.flyberrycapital/scala-slack_2.10/0.3.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.flyberrycapital#scala-slack_2.10;0.3.0[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/flyberrycapital/scala-slack_2.10/0.3.0/scala-slack_2.10-0.3.0.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for com.flyberrycapital#scala-slack_2.10;0.3.0[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/com/flyberrycapital/scala-slack_2.10/0.3.0/scala-slack_2.10-0.3.0.pom (0.3.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/com/flyberrycapital/scala-slack_2.10/0.3.0/scala-slack_2.10-0.3.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/flyberrycapital/scala-slack_2.10/0.3.0/scala-slack_2.10-0.3.0.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/flyberrycapital/scala-slack_2.10/0.3.0/scala-slack_2.10-0.3.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/com/flyberrycapital/scala-slack_2.10/0.3.0/scala-slack_2.10-0.3.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.flyberrycapital#scala-slack_2.10;0.3.0!scala-slack_2.10.pom(pom.original) (703ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/shindo/.ivy2/local/com.flyberrycapital/scala-slack_2.10/0.3.0/jars/scala-slack_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/flyberrycapital/scala-slack_2.10/0.3.0/scala-slack_2.10-0.3.0.jar[0m
+[0m[[0mdebug[0m] [0m	found com.flyberrycapital#scala-slack_2.10;0.3.0 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-json_2.10;2.4.0-M1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-json_2.10;2.4.0-M1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-json_2.10;2.4.0-M1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-json_2.10;2.4.0-M1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/shindo/.ivy2/local/com.typesafe.play/play-json_2.10/2.4.0-M1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.play#play-json_2.10;2.4.0-M1[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/play/play-json_2.10/2.4.0-M1/play-json_2.10-2.4.0-M1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for com.typesafe.play#play-json_2.10;2.4.0-M1[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/com/typesafe/play/play-json_2.10/2.4.0-M1/play-json_2.10-2.4.0-M1.pom (2.4.0-M1)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/com/typesafe/play/play-json_2.10/2.4.0-M1/play-json_2.10-2.4.0-M1.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-json_2.10/2.4.0-M1/play-json_2.10-2.4.0-M1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-json_2.10/2.4.0-M1/play-json_2.10-2.4.0-M1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/com/typesafe/play/play-json_2.10/2.4.0-M1/play-json_2.10-2.4.0-M1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.play#play-json_2.10;2.4.0-M1!play-json_2.10.pom(pom.original) (688ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/shindo/.ivy2/local/com.typesafe.play/play-json_2.10/2.4.0-M1/jars/play-json_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/play/play-json_2.10/2.4.0-M1/play-json_2.10-2.4.0-M1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#play-json_2.10;2.4.0-M1 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-iteratees_2.10;2.4.0-M1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-iteratees_2.10;2.4.0-M1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-iteratees_2.10;2.4.0-M1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-iteratees_2.10;2.4.0-M1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/shindo/.ivy2/local/com.typesafe.play/play-iteratees_2.10/2.4.0-M1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.play#play-iteratees_2.10;2.4.0-M1[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/play/play-iteratees_2.10/2.4.0-M1/play-iteratees_2.10-2.4.0-M1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for com.typesafe.play#play-iteratees_2.10;2.4.0-M1[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/com/typesafe/play/play-iteratees_2.10/2.4.0-M1/play-iteratees_2.10-2.4.0-M1.pom (2.4.0-M1)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/com/typesafe/play/play-iteratees_2.10/2.4.0-M1/play-iteratees_2.10-2.4.0-M1.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-iteratees_2.10/2.4.0-M1/play-iteratees_2.10-2.4.0-M1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-iteratees_2.10/2.4.0-M1/play-iteratees_2.10-2.4.0-M1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/com/typesafe/play/play-iteratees_2.10/2.4.0-M1/play-iteratees_2.10-2.4.0-M1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.play#play-iteratees_2.10;2.4.0-M1!play-iteratees_2.10.pom(pom.original) (733ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/shindo/.ivy2/local/com.typesafe.play/play-iteratees_2.10/2.4.0-M1/jars/play-iteratees_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/play/play-iteratees_2.10/2.4.0-M1/play-iteratees_2.10-2.4.0-M1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#play-iteratees_2.10;2.4.0-M1 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-stm#scala-stm_2.10;0.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-stm#scala-stm_2.10;0.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving org.scala-stm#scala-stm_2.10;0.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-stm#scala-stm_2.10;0.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/shindo/.ivy2/local/org.scala-stm/scala-stm_2.10/0.7/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-stm#scala-stm_2.10;0.7[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.scala-stm#scala-stm_2.10;0.7[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.pom (0.7)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-stm#scala-stm_2.10;0.7!scala-stm_2.10.pom(pom.original) (707ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/shindo/.ivy2/local/org.scala-stm/scala-stm_2.10/0.7/jars/scala-stm_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-stm#scala-stm_2.10;0.7 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.2.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.2.1[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-functional_2.10;2.4.0-M1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-functional_2.10;2.4.0-M1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-functional_2.10;2.4.0-M1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-functional_2.10;2.4.0-M1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/shindo/.ivy2/local/com.typesafe.play/play-functional_2.10/2.4.0-M1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.play#play-functional_2.10;2.4.0-M1[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/play/play-functional_2.10/2.4.0-M1/play-functional_2.10-2.4.0-M1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for com.typesafe.play#play-functional_2.10;2.4.0-M1[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/com/typesafe/play/play-functional_2.10/2.4.0-M1/play-functional_2.10-2.4.0-M1.pom (2.4.0-M1)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/com/typesafe/play/play-functional_2.10/2.4.0-M1/play-functional_2.10-2.4.0-M1.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-functional_2.10/2.4.0-M1/play-functional_2.10-2.4.0-M1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-functional_2.10/2.4.0-M1/play-functional_2.10-2.4.0-M1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/com/typesafe/play/play-functional_2.10/2.4.0-M1/play-functional_2.10-2.4.0-M1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.play#play-functional_2.10;2.4.0-M1!play-functional_2.10.pom(pom.original) (704ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/shindo/.ivy2/local/com.typesafe.play/play-functional_2.10/2.4.0-M1/jars/play-functional_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/play/play-functional_2.10/2.4.0-M1/play-functional_2.10-2.4.0-M1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#play-functional_2.10;2.4.0-M1 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-datacommons_2.10;2.4.0-M1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-datacommons_2.10;2.4.0-M1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-datacommons_2.10;2.4.0-M1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-datacommons_2.10;2.4.0-M1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/shindo/.ivy2/local/com.typesafe.play/play-datacommons_2.10/2.4.0-M1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.play#play-datacommons_2.10;2.4.0-M1[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/play/play-datacommons_2.10/2.4.0-M1/play-datacommons_2.10-2.4.0-M1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for com.typesafe.play#play-datacommons_2.10;2.4.0-M1[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/com/typesafe/play/play-datacommons_2.10/2.4.0-M1/play-datacommons_2.10-2.4.0-M1.pom (2.4.0-M1)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/com/typesafe/play/play-datacommons_2.10/2.4.0-M1/play-datacommons_2.10-2.4.0-M1.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-datacommons_2.10/2.4.0-M1/play-datacommons_2.10-2.4.0-M1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-datacommons_2.10/2.4.0-M1/play-datacommons_2.10-2.4.0-M1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/com/typesafe/play/play-datacommons_2.10/2.4.0-M1/play-datacommons_2.10-2.4.0-M1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.play#play-datacommons_2.10;2.4.0-M1!play-datacommons_2.10.pom(pom.original) (670ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/shindo/.ivy2/local/com.typesafe.play/play-datacommons_2.10/2.4.0-M1/jars/play-datacommons_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/play/play-datacommons_2.10/2.4.0-M1/play-datacommons_2.10-2.4.0-M1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#play-datacommons_2.10;2.4.0-M1 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: joda-time#joda-time;2.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: joda-time#joda-time;2.3[0m
+[0m[[0mdebug[0m] [0m	found joda-time#joda-time;2.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.joda#joda-convert;1.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.joda#joda-convert;1.6[0m
+[0m[[0mdebug[0m] [0m	found org.joda#joda-convert;1.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-reflect;2.10.4[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-core;2.3.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-core;2.3.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.3.2[0m
+[0m[[0mdebug[0m] [0m	found com.fasterxml.jackson.core#jackson-core;2.3.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-annotations;2.3.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-annotations;2.3.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.3.2[0m
+[0m[[0mdebug[0m] [0m	found com.fasterxml.jackson.core#jackson-annotations;2.3.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-databind;2.3.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-databind;2.3.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.3.2[0m
+[0m[[0mdebug[0m] [0m	found com.fasterxml.jackson.core#jackson-databind;2.3.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalaj#scalaj-http_2.10;1.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaj#scalaj-http_2.10;1.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving org.scalaj#scalaj-http_2.10;1.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scalaj#scalaj-http_2.10;1.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/shindo/.ivy2/local/org.scalaj/scalaj-http_2.10/1.1.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalaj#scalaj-http_2.10;1.1.0[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/1.1.0/scalaj-http_2.10-1.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.scalaj#scalaj-http_2.10;1.1.0[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/1.1.0/scalaj-http_2.10-1.1.0.pom (1.1.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/1.1.0/scalaj-http_2.10-1.1.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/1.1.0/scalaj-http_2.10-1.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/1.1.0/scalaj-http_2.10-1.1.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/1.1.0/scalaj-http_2.10-1.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalaj#scalaj-http_2.10;1.1.0!scalaj-http_2.10.pom(pom.original) (680ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/shindo/.ivy2/local/org.scalaj/scalaj-http_2.10/1.1.0/jars/scalaj-http_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/1.1.0/scalaj-http_2.10-1.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scalaj#scalaj-http_2.10;1.1.0 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.jsoup#jsoup;1.7.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->com.typesafe.play#play-json_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-iteratees_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->org.scala-stm#scala-stm_2.10;0.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.4.0-M1->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-functional_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.typesafe.play#play-datacommons_2.10;2.4.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.4.0-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->joda-time#joda-time;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.joda#joda-convert;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.4.0-M1->com.fasterxml.jackson.core#jackson-databind;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.2->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.flyberrycapital#scala-slack_2.10;0.3.0->org.scalaj#scalaj-http_2.10;1.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaj#scalaj-http_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->com.flyberrycapital#scala-slack_2.10;0.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for scalascraping1#scalascraping1_2.10;0.0.1 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-compiler;2.10.5 [scala-tool->default][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.5 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.5[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-compiler;2.10.5 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-compiler;2.10.5 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.5[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.5] org.scala-lang#scala-reflect;2.10.5[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.5->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.5->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-compiler;2.10.5 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-compiler;2.10.5 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#jline;2.10.5 [optional->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.5 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.5[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#jline;2.10.5 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.5->org.fusesource.jansi#jansi;1.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.5->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalascraping1#scalascraping1_2.10;0.0.1->org.scala-lang#scala-library;2.10.5 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jsoup#jsoup;1.7.3!jsoup.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/flyberrycapital/scala-slack_2.10/0.3.0/scala-slack_2.10-0.3.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/com/flyberrycapital/scala-slack_2.10/0.3.0/scala-slack_2.10-0.3.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/flyberrycapital/scala-slack_2.10/0.3.0/scala-slack_2.10-0.3.0.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/flyberrycapital/scala-slack_2.10/0.3.0/scala-slack_2.10-0.3.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/com/flyberrycapital/scala-slack_2.10/0.3.0/scala-slack_2.10-0.3.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.flyberrycapital#scala-slack_2.10;0.3.0!scala-slack_2.10.jar (1898ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/play/play-json_2.10/2.4.0-M1/play-json_2.10-2.4.0-M1.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/com/typesafe/play/play-json_2.10/2.4.0-M1/play-json_2.10-2.4.0-M1.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-json_2.10/2.4.0-M1/play-json_2.10-2.4.0-M1.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-json_2.10/2.4.0-M1/play-json_2.10-2.4.0-M1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/com/typesafe/play/play-json_2.10/2.4.0-M1/play-json_2.10-2.4.0-M1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.play#play-json_2.10;2.4.0-M1!play-json_2.10.jar (2693ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/1.1.0/scalaj-http_2.10-1.1.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/1.1.0/scalaj-http_2.10-1.1.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/1.1.0/scalaj-http_2.10-1.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/1.1.0/scalaj-http_2.10-1.1.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/1.1.0/scalaj-http_2.10-1.1.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalaj#scalaj-http_2.10;1.1.0!scalaj-http_2.10.jar (1119ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/play/play-iteratees_2.10/2.4.0-M1/play-iteratees_2.10-2.4.0-M1.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/com/typesafe/play/play-iteratees_2.10/2.4.0-M1/play-iteratees_2.10-2.4.0-M1.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-iteratees_2.10/2.4.0-M1/play-iteratees_2.10-2.4.0-M1.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-iteratees_2.10/2.4.0-M1/play-iteratees_2.10-2.4.0-M1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/com/typesafe/play/play-iteratees_2.10/2.4.0-M1/play-iteratees_2.10-2.4.0-M1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.play#play-iteratees_2.10;2.4.0-M1!play-iteratees_2.10.jar (1799ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/play/play-functional_2.10/2.4.0-M1/play-functional_2.10-2.4.0-M1.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/com/typesafe/play/play-functional_2.10/2.4.0-M1/play-functional_2.10-2.4.0-M1.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-functional_2.10/2.4.0-M1/play-functional_2.10-2.4.0-M1.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-functional_2.10/2.4.0-M1/play-functional_2.10-2.4.0-M1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/com/typesafe/play/play-functional_2.10/2.4.0-M1/play-functional_2.10-2.4.0-M1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.play#play-functional_2.10;2.4.0-M1!play-functional_2.10.jar (1721ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/play/play-datacommons_2.10/2.4.0-M1/play-datacommons_2.10-2.4.0-M1.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/com/typesafe/play/play-datacommons_2.10/2.4.0-M1/play-datacommons_2.10-2.4.0-M1.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-datacommons_2.10/2.4.0-M1/play-datacommons_2.10-2.4.0-M1.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-datacommons_2.10/2.4.0-M1/play-datacommons_2.10-2.4.0-M1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/com/typesafe/play/play-datacommons_2.10/2.4.0-M1/play-datacommons_2.10-2.4.0-M1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.play#play-datacommons_2.10;2.4.0-M1!play-datacommons_2.10.jar (749ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] joda-time#joda-time;2.3!joda-time.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.joda#joda-convert;1.6!joda-convert.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.3.2!jackson-core.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.3.2!jackson-annotations.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.3.2!jackson-databind.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-stm#scala-stm_2.10;0.7!scala-stm_2.10.jar (1779ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.5!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.5!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 13778ms :: artifacts dl 11801ms[0m
+[0m[[0mdebug[0m] [0m	report for scalascraping1#scalascraping1_2.10;0.0.1 compile produced in /home/shindo/Scraping_in_Scala/target/resolution-cache/reports/scalascraping1-scalascraping1_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for scalascraping1#scalascraping1_2.10;0.0.1 runtime produced in /home/shindo/Scraping_in_Scala/target/resolution-cache/reports/scalascraping1-scalascraping1_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for scalascraping1#scalascraping1_2.10;0.0.1 test produced in /home/shindo/Scraping_in_Scala/target/resolution-cache/reports/scalascraping1-scalascraping1_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for scalascraping1#scalascraping1_2.10;0.0.1 provided produced in /home/shindo/Scraping_in_Scala/target/resolution-cache/reports/scalascraping1-scalascraping1_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for scalascraping1#scalascraping1_2.10;0.0.1 optional produced in /home/shindo/Scraping_in_Scala/target/resolution-cache/reports/scalascraping1-scalascraping1_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for scalascraping1#scalascraping1_2.10;0.0.1 compile-internal produced in /home/shindo/Scraping_in_Scala/target/resolution-cache/reports/scalascraping1-scalascraping1_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for scalascraping1#scalascraping1_2.10;0.0.1 runtime-internal produced in /home/shindo/Scraping_in_Scala/target/resolution-cache/reports/scalascraping1-scalascraping1_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for scalascraping1#scalascraping1_2.10;0.0.1 test-internal produced in /home/shindo/Scraping_in_Scala/target/resolution-cache/reports/scalascraping1-scalascraping1_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for scalascraping1#scalascraping1_2.10;0.0.1 plugin produced in /home/shindo/Scraping_in_Scala/target/resolution-cache/reports/scalascraping1-scalascraping1_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for scalascraping1#scalascraping1_2.10;0.0.1 sources produced in /home/shindo/Scraping_in_Scala/target/resolution-cache/reports/scalascraping1-scalascraping1_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for scalascraping1#scalascraping1_2.10;0.0.1 docs produced in /home/shindo/Scraping_in_Scala/target/resolution-cache/reports/scalascraping1-scalascraping1_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for scalascraping1#scalascraping1_2.10;0.0.1 pom produced in /home/shindo/Scraping_in_Scala/target/resolution-cache/reports/scalascraping1-scalascraping1_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for scalascraping1#scalascraping1_2.10;0.0.1 scala-tool produced in /home/shindo/Scraping_in_Scala/target/resolution-cache/reports/scalascraping1-scalascraping1_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (13778ms resolve - 11801ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m

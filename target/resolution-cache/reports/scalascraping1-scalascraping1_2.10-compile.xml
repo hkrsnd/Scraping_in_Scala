@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="scalascraping1"
+		module="scalascraping1_2.10"
+		revision="0.0.1"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160204020554"/>
+	<dependencies>
+		<module organisation="com.flyberrycapital" name="scala-slack_2.10">
+			<revision name="0.3.0" status="release" pubdate="20150912203811" resolver="jcenter" artresolver="jcenter" homepage="https://github.com/flyberry-capital/scala-slack" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="successful" details="" size="2274" time="703" location="/home/shindo/.ivy2/cache/com.flyberrycapital/scala-slack_2.10/ivy-0.3.0.xml" searched="true" original-local-location="/home/shindo/.ivy2/cache/com.flyberrycapital/scala-slack_2.10/ivy-0.3.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/flyberrycapital/scala-slack_2.10/0.3.0/scala-slack_2.10-0.3.0.pom"/>
+				<caller organisation="scalascraping1" name="scalascraping1_2.10" conf="compile" rev="0.3.0" rev-constraint-default="0.3.0" rev-constraint-dynamic="0.3.0" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="scala-slack_2.10" type="jar" ext="jar" status="successful" details="" size="121061" time="1898" location="/home/shindo/.ivy2/cache/com.flyberrycapital/scala-slack_2.10/jars/scala-slack_2.10-0.3.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/flyberrycapital/scala-slack_2.10/0.3.0/scala-slack_2.10-0.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaj" name="scalaj-http_2.10">
+			<revision name="1.1.0" status="release" pubdate="20141207035600" resolver="jcenter" artresolver="jcenter" homepage="http://github.com/scalaj/scalaj-http" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2262" time="680" location="/home/shindo/.ivy2/cache/org.scalaj/scalaj-http_2.10/ivy-1.1.0.xml" searched="true" original-local-location="/home/shindo/.ivy2/cache/org.scalaj/scalaj-http_2.10/ivy-1.1.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/1.1.0/scalaj-http_2.10-1.1.0.pom"/>
+				<caller organisation="com.flyberrycapital" name="scala-slack_2.10" conf="default, compile, runtime, master" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.3.0"/>
+				<artifacts>
+					<artifact name="scalaj-http_2.10" type="jar" ext="jar" status="successful" details="" size="107691" time="1119" location="/home/shindo/.ivy2/cache/org.scalaj/scalaj-http_2.10/jars/scalaj-http_2.10-1.1.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/1.1.0/scalaj-http_2.10-1.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-json_2.10">
+			<revision name="2.4.0-M1" status="release" pubdate="20140821115000" resolver="jcenter" artresolver="jcenter" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="6413" time="688" location="/home/shindo/.ivy2/cache/com.typesafe.play/play-json_2.10/ivy-2.4.0-M1.xml" searched="true" original-local-location="/home/shindo/.ivy2/cache/com.typesafe.play/play-json_2.10/ivy-2.4.0-M1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/play/play-json_2.10/2.4.0-M1/play-json_2.10-2.4.0-M1.pom"/>
+				<caller organisation="com.flyberrycapital" name="scala-slack_2.10" conf="default, compile, runtime, master" rev="2.4.0-M1" rev-constraint-default="2.4.0-M1" rev-constraint-dynamic="2.4.0-M1" callerrev="0.3.0"/>
+				<artifacts>
+					<artifact name="play-json_2.10" type="jar" ext="jar" status="successful" details="" size="528488" time="2693" location="/home/shindo/.ivy2/cache/com.typesafe.play/play-json_2.10/jars/play-json_2.10-2.4.0-M1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/play-json_2.10/2.4.0-M1/play-json_2.10-2.4.0-M1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.3.2" status="release" pubdate="20140302121312" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<metadata-artifact status="no" details="" size="7223" time="0" location="/home/shindo/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.3.2/jackson-databind-2.3.2.pom"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile, runtime" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="2.4.0-M1"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="bundle" ext="jar" status="no" details="" size="915096" time="0" location="/home/shindo/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.3.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.3.2/jackson-databind-2.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.3.2" status="release" pubdate="20140301103539" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, master(*)" position="13">
+				<metadata-artifact status="no" details="" size="4859" time="0" location="/home/shindo/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.3.2/jackson-annotations-2.3.2.pom"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile, runtime" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="2.4.0-M1"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="2.3.2"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="bundle" ext="jar" status="no" details="" size="36521" time="0" location="/home/shindo/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.3.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.3.2/jackson-annotations-2.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.3.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), master, master(compile)" position="-1">
+				<evicted-by rev="2.3.2"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="2.3.2"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile, runtime" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="2.4.0-M1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.3.2" status="release" pubdate="20140301103828" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<metadata-artifact status="no" details="" size="5473" time="0" location="/home/shindo/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.3.2/jackson-core-2.3.2.pom"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile, runtime" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="2.4.0-M1"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="2.3.2"/>
+				<artifacts>
+					<artifact name="jackson-core" type="bundle" ext="jar" status="no" details="" size="199553" time="0" location="/home/shindo/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.3.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.3.2/jackson-core-2.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.4" status="release" pubdate="20140319064707" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2647" time="0" location="/home/shindo/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.pom"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.4.0-M1"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3203471" time="0" location="/home/shindo/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.4.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.6" status="release" pubdate="20140128033743" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-convert/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6116" time="0" location="/home/shindo/.ivy2/cache/org.joda/joda-convert/ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/joda/joda-convert/1.6/joda-convert-1.6.pom"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile, runtime" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="2.4.0-M1"/>
+				<artifacts>
+					<artifact name="joda-convert" type="jar" ext="jar" status="no" details="" size="98818" time="0" location="/home/shindo/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/joda/joda-convert/1.6/joda-convert-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.3" status="release" pubdate="20130817023125" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6364" time="0" location="/home/shindo/.ivy2/cache/joda-time/joda-time/ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile, runtime" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="2.4.0-M1"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="581571" time="0" location="/home/shindo/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-datacommons_2.10">
+			<revision name="2.4.0-M1" status="release" pubdate="20140821114900" resolver="jcenter" artresolver="jcenter" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="3931" time="670" location="/home/shindo/.ivy2/cache/com.typesafe.play/play-datacommons_2.10/ivy-2.4.0-M1.xml" searched="true" original-local-location="/home/shindo/.ivy2/cache/com.typesafe.play/play-datacommons_2.10/ivy-2.4.0-M1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/play/play-datacommons_2.10/2.4.0-M1/play-datacommons_2.10-2.4.0-M1.pom"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile, runtime" rev="2.4.0-M1" rev-constraint-default="2.4.0-M1" rev-constraint-dynamic="2.4.0-M1" callerrev="2.4.0-M1"/>
+				<artifacts>
+					<artifact name="play-datacommons_2.10" type="jar" ext="jar" status="successful" details="" size="5222" time="749" location="/home/shindo/.ivy2/cache/com.typesafe.play/play-datacommons_2.10/jars/play-datacommons_2.10-2.4.0-M1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/play-datacommons_2.10/2.4.0-M1/play-datacommons_2.10-2.4.0-M1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-functional_2.10">
+			<revision name="2.4.0-M1" status="release" pubdate="20140821115000" resolver="jcenter" artresolver="jcenter" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="3928" time="704" location="/home/shindo/.ivy2/cache/com.typesafe.play/play-functional_2.10/ivy-2.4.0-M1.xml" searched="true" original-local-location="/home/shindo/.ivy2/cache/com.typesafe.play/play-functional_2.10/ivy-2.4.0-M1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/play/play-functional_2.10/2.4.0-M1/play-functional_2.10-2.4.0-M1.pom"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile, runtime" rev="2.4.0-M1" rev-constraint-default="2.4.0-M1" rev-constraint-dynamic="2.4.0-M1" callerrev="2.4.0-M1"/>
+				<artifacts>
+					<artifact name="play-functional_2.10" type="jar" ext="jar" status="successful" details="" size="382948" time="1721" location="/home/shindo/.ivy2/cache/com.typesafe.play/play-functional_2.10/jars/play-functional_2.10-2.4.0-M1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/play-functional_2.10/2.4.0-M1/play-functional_2.10-2.4.0-M1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-iteratees_2.10">
+			<revision name="2.4.0-M1" status="release" pubdate="20140821115000" resolver="jcenter" artresolver="jcenter" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="5114" time="733" location="/home/shindo/.ivy2/cache/com.typesafe.play/play-iteratees_2.10/ivy-2.4.0-M1.xml" searched="true" original-local-location="/home/shindo/.ivy2/cache/com.typesafe.play/play-iteratees_2.10/ivy-2.4.0-M1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/play/play-iteratees_2.10/2.4.0-M1/play-iteratees_2.10-2.4.0-M1.pom"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile, runtime" rev="2.4.0-M1" rev-constraint-default="2.4.0-M1" rev-constraint-dynamic="2.4.0-M1" callerrev="2.4.0-M1"/>
+				<artifacts>
+					<artifact name="play-iteratees_2.10" type="jar" ext="jar" status="successful" details="" size="754823" time="1799" location="/home/shindo/.ivy2/cache/com.typesafe.play/play-iteratees_2.10/jars/play-iteratees_2.10-2.4.0-M1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/play-iteratees_2.10/2.4.0-M1/play-iteratees_2.10-2.4.0-M1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.2.1" status="release" pubdate="20140502235416" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2734" time="0" location="/home/shindo/.ivy2/cache/com.typesafe/config/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom"/>
+				<caller organisation="com.typesafe.play" name="play-iteratees_2.10" conf="compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="2.4.0-M1"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="219554" time="0" location="/home/shindo/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-stm" name="scala-stm_2.10">
+			<revision name="0.7" status="release" pubdate="20121222123826" resolver="jcenter" artresolver="jcenter" homepage="http://nbronson.github.com/scala-stm/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="BSD" url="https://github.com/nbronson/scala-stm/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="successful" details="" size="1422" time="707" location="/home/shindo/.ivy2/cache/org.scala-stm/scala-stm_2.10/ivy-0.7.xml" searched="true" original-local-location="/home/shindo/.ivy2/cache/org.scala-stm/scala-stm_2.10/ivy-0.7.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.pom"/>
+				<caller organisation="com.typesafe.play" name="play-iteratees_2.10" conf="compile, runtime" rev="0.7" rev-constraint-default="0.7" rev-constraint-dynamic="0.7" callerrev="2.4.0-M1"/>
+				<artifacts>
+					<artifact name="scala-stm_2.10" type="jar" ext="jar" status="successful" details="" size="650514" time="1779" location="/home/shindo/.ivy2/cache/org.scala-stm/scala-stm_2.10/jars/scala-stm_2.10-0.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jsoup" name="jsoup">
+			<revision name="1.7.3" status="release" pubdate="20131117025712" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jsoup.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="The MIT License" url="http://jsoup.com/license"/>
+				<metadata-artifact status="no" details="" size="3006" time="0" location="/home/shindo/.ivy2/cache/org.jsoup/jsoup/ivy-1.7.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/jsoup/jsoup/1.7.3/jsoup-1.7.3.pom"/>
+				<caller organisation="scalascraping1" name="scalascraping1_2.10" conf="compile" rev="1.7.3" rev-constraint-default="1.7.3" rev-constraint-dynamic="1.7.3" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="jsoup" type="jar" ext="jar" status="no" details="" size="297387" time="0" location="/home/shindo/.ivy2/cache/org.jsoup/jsoup/jars/jsoup-1.7.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jsoup/jsoup/1.7.3/jsoup-1.7.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.5" status="release" pubdate="20151016220313" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.5/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, master(*), runtime(*), master(compile), compile(*)" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2487" time="0" location="/home/shindo/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.pom"/>
+				<caller organisation="scalascraping1" name="scalascraping1_2.10" conf="compile" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="0.0.1"/>
+				<caller organisation="com.flyberrycapital" name="scala-slack_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.3.0"/>
+				<caller organisation="com.typesafe.play" name="play-functional_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.4.0-M1"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.4.0-M1"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.10.4"/>
+				<caller organisation="org.scala-stm" name="scala-stm_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="0.7"/>
+				<caller organisation="org.scalaj" name="scalaj-http_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.1.0"/>
+				<caller organisation="com.typesafe.play" name="play-datacommons_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.4.0-M1"/>
+				<caller organisation="com.typesafe.play" name="play-iteratees_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.4.0-M1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7130772" time="0" location="/home/shindo/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.10.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), default, default(compile), master" position="-1">
+				<evicted-by rev="2.10.5"/>
+				<caller organisation="scalascraping1" name="scalascraping1_2.10" conf="compile" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="0.0.1"/>
+				<caller organisation="com.flyberrycapital" name="scala-slack_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.3.0"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.4.0-M1"/>
+				<caller organisation="org.scala-stm" name="scala-stm_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="0.7"/>
+				<caller organisation="com.typesafe.play" name="play-iteratees_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.4.0-M1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.10.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="-1">
+				<evicted-by rev="2.10.5"/>
+				<caller organisation="com.flyberrycapital" name="scala-slack_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.3.0"/>
+				<caller organisation="scalascraping1" name="scalascraping1_2.10" conf="compile" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="0.0.1"/>
+				<caller organisation="com.typesafe.play" name="play-functional_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.4.0-M1"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.4.0-M1"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.10.4"/>
+				<caller organisation="org.scala-stm" name="scala-stm_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="0.7"/>
+				<caller organisation="org.scalaj" name="scalaj-http_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.1.0"/>
+				<caller organisation="com.typesafe.play" name="play-datacommons_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.4.0-M1"/>
+				<caller organisation="com.typesafe.play" name="play-iteratees_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.4.0-M1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
