@@ -40,7 +40,7 @@ object Main {
   }
 
   def getNewProjectUrl(): String = {
-    val new_project_url = baseurl ++ doc.getElementsByClass("work_title").asScala.map(x => x.getElementsByTag("a").attr("href")).head
+    val new_project_url = baseurl ++ doc.getElementsByClass("work_title").asScala.map(x => x.getElementsByTag("a").attr("href")).tail.head
     new_project_url
   }
 
@@ -48,10 +48,10 @@ object Main {
     val new_doc = Jsoup.connect(new_project_url)
       .userAgent("Mozilla/5.0 (Windows; U; WindowsNT 5.1; en-US; rv1.8.1.6) Gecko/20070725 Firefox/2.0.0.6").get()
     val new_project_title = try {
-      new_doc.getElementsByClass("suggestion").first.text
+      new_doc.getElementsByClass("c-heading").first.text
     } catch { case e: java.lang.NullPointerException => "限定公開のしごと"}
     var new_project_comment = try {
-      new_doc.getElementsByClass("comment").text.foldLeft("")((l, r) => l.toString ++ r.toString)
+      new_doc.getElementsByClass("workdetail__postscript").text.foldLeft("")((l, r) => l.toString ++ r.toString)
     } catch { case e: java.lang.NullPointerException => ""}
 
      //if (new_project_comment == "") {
