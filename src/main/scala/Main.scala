@@ -40,7 +40,7 @@ object Main {
   }
 
   def getNewProjectUrl(): String = {
-    val new_project_url = baseurl ++ doc.getElementsByClass("work_title").asScala.map(x => x.getElementsByTag("a").attr("href")).tail.head
+    val new_project_url = baseurl ++ doc.getElementsByClass("work_title").asScala.map(x => x.getElementsByTag("a").attr("href")).head
     new_project_url
   }
 
@@ -102,6 +102,6 @@ object Slack {
   s.readTimeout(5000)
   
   def post(new_project_url: String): Unit = {
-    s.chat.postMessage("#piimemo", new_project_url)
+    s.chat.postMessage("#newjobs", new_project_url)
   }
 }
